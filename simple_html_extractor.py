@@ -86,12 +86,8 @@ def find_pattern(soup, value):
     # Try exact text match first
     elem = soup.find(string=lambda x: x and value in x)
     if elem:
-        # Get the parent element and its attributes
+        # Get the parent element
         parent = elem.parent
-        attrs = {}
-        if parent.get('class'):
-            attrs['class'] = parent['class']
-        
         # Get the full text to see if it contains line breaks
         full_text = parent.get_text(separator='<br>', strip=True)
         parts = full_text.split('<br>')
@@ -100,22 +96,19 @@ def find_pattern(soup, value):
             # If text has line breaks, find which part contains our value
             try:
                 index = next(i for i, part in enumerate(parts) if value in part)
-                return ('text_with_breaks', parent.name, attrs, index)
+                return ('text_with_breaks', parent.name, index)
             except StopIteration:
                 pass
         
         # Simple text content
-        return ('text', parent.name, attrs, None)
+        return ('text', parent.name, None)
     
     # Try alt attributes
     img = soup.find('img', alt=lambda x: x and value in x)
     if img:
-        attrs = {}
-        if img.get('class'):
-            attrs['class'] = img['class']
-        return ('alt', 'img', attrs, None)
+        return ('alt', 'img', None)
     
-    return (None, None, None, None)
+    return (None, None, None)
 
 def get_value(elem, method, index=None):
     """Extract value from element based on pattern."""
@@ -136,68 +129,59 @@ def extract_data_by_pattern(soup, patterns, column_names):
     """Extract data using discovered patterns."""
     data = []
     
-    # For the first column's pattern, find all matching elements to determine rows
-    first_col = column_names[0]
-    first_pattern = patterns[first_col]
-    if not first_pattern[0]:  # If no pattern found
-        return data
-        
-    method, tag, attrs, index = first_pattern
-    if method == 'alt':
-        first_elements = soup.find_all('img', alt=True, **attrs)
-    else:
-        first_elements = soup.find_all(tag, **attrs)
+    # Find all potential containers
+    containers = soup.find_all()
     
-    # For each element matching first column's pattern
-    for elem in first_elements:
+    # Process each container
+    for container in containers:
         row = {}
         has_data = False
         
-        # Try to get value using first column's pattern
-        value = get_value(elem, method, index)
-        if value:
-            row[first_col] = value
-            has_data = True
+        # Try to extract each column's value
+        for col, (method, tag, index) in patterns.items():
+            if not method:
+                continue
             
-            # Find the container that holds all columns
-            container = elem.parent
-            while container and container.name != 'body':
-                # Check if this container has elements for other columns
-                has_others = False
-                for col, (method, tag, attrs, index) in patterns.items():
-                    if col != first_col and method:
-                        if method == 'alt' and container.find('img', alt=True, **attrs):
-                            has_others = True
-                            break
-                        elif container.find(tag, **attrs):
-                            has_others = True
-                            break
-                if has_others:
-                    break
-                container = container.parent
+            value = None
             
-            # Look for other columns in this container
-            for col, (method, tag, attrs, index) in patterns.items():
-                if col == first_col or not method:  # Skip first column and invalid patterns
-                    continue
-                    
-                value = None
-                if method == 'alt':
-                    img = container.find('img', alt=True, **attrs)
-                    if img:
-                        value = get_value(img, method, index)
-                else:
-                    found = container.find(tag, **attrs)
-                    if found:
-                        value = get_value(found, method, index)
-                
-                row[col] = value if value else ''
+            # First try to find the value in this container
+            if method == 'alt':
+                img = container.find('img', alt=True)
+                if img:
+                    value = get_value(img, method, index)
+            elif method in ['text', 'text_with_breaks']:
+                # Find all matching tags in this container
+                elems = container.find_all(tag)
+                for elem in elems:
+                    test_value = get_value(elem, method, index)
+                    # Only use this value if it's not already in our row
+                    if test_value and test_value not in row.values():
+                        value = test_value
+                        break
+            
+            if value:
+                row[col] = value
+                has_data = True
         
         # Add row if we found any data
         if has_data:
+            # Fill in any missing columns
+            for col in column_names:
+                if col not in row:
+                    row[col] = ''
             data.append(row)
     
-    return data
+    # Remove duplicate rows
+    unique_data = []
+    seen = set()
+    for row in data:
+        # Convert row to tuple for hashability
+        row_tuple = tuple(row[col] for col in column_names)
+        if row_tuple not in seen and any(row_tuple):
+            seen.add(row_tuple)
+            unique_data.append(row)
+    
+    return unique_data
 
 def main():
     # Get input file
@@ -222,14 +206,13 @@ def main():
         print("\nAnalyzing patterns...")
         patterns = {}
         for col, value in zip(column_names, sample_values):
-            method, tag, attrs, index = find_pattern(soup, value)
+            method, tag, index = find_pattern(soup, value)
             if method:
-                attrs_str = f" with {attrs}" if attrs else ""
-                print(f"Found pattern for '{col}': {method} using {tag}{attrs_str}" + (f" index {index}" if index is not None else ""))
-                patterns[col] = (method, tag, attrs, index)
+                print(f"Found pattern for '{col}': {method} using {tag}" + (f" index {index}" if index is not None else ""))
+                patterns[col] = (method, tag, index)
             else:
                 print(f"Warning: Could not find pattern for '{col}'")
-                patterns[col] = (None, None, None, None)
+                patterns[col] = (None, None, None)
         data = extract_data_by_pattern(soup, patterns, column_names)
     
     # Save to CSV
