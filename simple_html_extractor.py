@@ -3,18 +3,83 @@ import os
 import csv
 from bs4 import BeautifulSoup
 
-def get_user_input():
+def get_user_input(soup):
     """Get column names and first row values from user."""
     print("Enter column names (comma-separated):")
     column_names = [name.strip() for name in input().split(",")]
     
+    # Check if these column names exist as class names
+    first_values = {}
+    found_classes = True
+    for col in column_names:
+        elem = soup.find(class_=col)  # Check any tag with this class
+        if elem:
+            first_values[col] = elem.get_text(strip=True)
+        else:
+            found_classes = False
+            break
+    
+    # If we found all matching classes, ask user if this is correct
+    if found_classes and first_values:
+        print("\nFound elements with matching class names. First values are:")
+        for col, value in first_values.items():
+            print(f"{col}: {value}")
+        
+        print("\nIs this the correct mapping? (Y/N)")
+        if input().strip().upper() == 'Y':
+            return column_names, list(first_values.values()), True
+    
+    # If no matches or user said no, proceed with manual input
     print("\nFor each column, enter the value from the first row:")
     sample_values = []
     for col in column_names:
         value = input(f"{col}: ").strip()
         sample_values.append(value)
     
-    return column_names, sample_values
+    return column_names, sample_values, False
+
+def extract_data_by_class(soup, column_names):
+    """Extract data using class names as column names."""
+    data = []
+    
+    # Find all instances of the first column to determine number of rows
+    first_col = column_names[0]
+    first_elements = soup.find_all(class_=first_col)
+    
+    # For each first column element
+    for first_elem in first_elements:
+        row = {}
+        has_data = False
+        
+        # Find the common parent that contains all columns
+        parent = first_elem.parent
+        while parent and parent.name != 'body':
+            # Check if this parent contains elements for all columns
+            found_all = True
+            for col in column_names:
+                if not parent.find(class_=col):
+                    found_all = False
+                    break
+            if found_all:
+                break
+            parent = parent.parent
+        
+        if parent:
+            # Extract values for each column from this parent
+            for col in column_names:
+                elem = parent.find(class_=col)
+                if elem:
+                    value = elem.get_text(strip=True)
+                    if value:
+                        row[col] = value
+                        has_data = True
+                else:
+                    row[col] = ''
+            
+            if has_data:
+                data.append(row)
+    
+    return data
 
 def find_pattern(soup, value):
     """Find how to extract a value from HTML."""
@@ -60,15 +125,12 @@ def get_value(elem, method, index=None):
         return elem.get_text(strip=True)
     return ''
 
-def extract_data(soup, patterns, column_names):
+def extract_data_by_pattern(soup, patterns, column_names):
     """Extract data using discovered patterns."""
     data = []
     
-    # Find all speaker wrappers (they contain all the data we want)
-    containers = soup.find_all('div', class_='speaker-wrapper')
-    if not containers:
-        # If no speaker wrappers found, use all divs as potential containers
-        containers = soup.find_all('div')
+    # Find all potential containers
+    containers = soup.find_all()
     
     # Process each container
     for container in containers:
@@ -128,28 +190,30 @@ def main():
         print(f"Error: {input_file} not found")
         return
     
-    # Get user input
-    column_names, sample_values = get_user_input()
-    
     # Load HTML
     with open(input_file, 'r', encoding='utf-8') as f:
         soup = BeautifulSoup(f.read(), 'html.parser')
     
-    # Find patterns for each column
-    print("\nAnalyzing patterns...")
-    patterns = {}
-    for col, value in zip(column_names, sample_values):
-        method, tag, index = find_pattern(soup, value)
-        if method:
-            print(f"Found pattern for '{col}': {method} using {tag}" + (f" index {index}" if index is not None else ""))
-            patterns[col] = (method, tag, index)
-        else:
-            print(f"Warning: Could not find pattern for '{col}'")
-            patterns[col] = (None, None, None)
+    # Get user input and check if using class-based extraction
+    column_names, sample_values, use_classes = get_user_input(soup)
     
     # Extract data
     print("\nExtracting data...")
-    data = extract_data(soup, patterns, column_names)
+    if use_classes:
+        data = extract_data_by_class(soup, column_names)
+    else:
+        # Find patterns for each column
+        print("\nAnalyzing patterns...")
+        patterns = {}
+        for col, value in zip(column_names, sample_values):
+            method, tag, index = find_pattern(soup, value)
+            if method:
+                print(f"Found pattern for '{col}': {method} using {tag}" + (f" index {index}" if index is not None else ""))
+                patterns[col] = (method, tag, index)
+            else:
+                print(f"Warning: Could not find pattern for '{col}'")
+                patterns[col] = (None, None, None)
+        data = extract_data_by_pattern(soup, patterns, column_names)
     
     # Save to CSV
     output_file = "output.csv"
