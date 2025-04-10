@@ -183,6 +183,40 @@ def extract_data_by_pattern(soup, patterns, column_names):
     
     return unique_data
 
+def clean_csv(filename, column_names):
+    """Clean the CSV file by combining duplicate rows."""
+    # Read existing data
+    rows = []
+    with open(filename, 'r', newline='', encoding='utf-8') as f:
+        reader = csv.DictReader(f)
+        rows = list(reader)
+
+    # Group rows by first column value
+    grouped_rows = {}
+    for row in rows:
+        key = row[column_names[0]].strip()
+        if not key:  # Skip rows with no first column value
+            continue
+            
+        if key not in grouped_rows:
+            grouped_rows[key] = row
+        else:
+            # Combine with existing row - take non-empty values
+            for col in column_names:
+                if not grouped_rows[key][col].strip() and row[col].strip():
+                    grouped_rows[key][col] = row[col]
+
+    # Convert back to list
+    cleaned_rows = list(grouped_rows.values())
+
+    # Write back cleaned data
+    with open(filename, 'w', newline='', encoding='utf-8') as f:
+        writer = csv.DictWriter(f, fieldnames=column_names)
+        writer.writeheader()
+        writer.writerows(cleaned_rows)
+
+    return len(cleaned_rows)
+
 def main():
     # Get input file
     input_file = "input.html"
@@ -222,7 +256,34 @@ def main():
         writer.writeheader()
         writer.writerows(data)
     
-    print(f"\nExtracted {len(data)} rows to {output_file}")
+    # Now clean up the output file
+    # Read the CSV
+    with open(output_file, 'r', newline='', encoding='utf-8') as f:
+        reader = csv.DictReader(f)
+        rows = list(reader)
+    
+    # Combine duplicate rows
+    combined = {}
+    for row in rows:
+        name = row[column_names[0]].strip()
+        if not name:  # Skip rows with no name
+            continue
+            
+        if name in combined:
+            # Merge with existing row
+            for col in column_names:
+                if not combined[name][col] and row[col]:
+                    combined[name][col] = row[col]
+        else:
+            combined[name] = row
+    
+    # Write back only the combined rows
+    with open(output_file, 'w', newline='', encoding='utf-8') as f:
+        writer = csv.DictWriter(f, fieldnames=column_names)
+        writer.writeheader()
+        writer.writerows(combined.values())
+    
+    print(f"\nExtracted {len(combined)} unique rows to {output_file}")
 
 if __name__ == "__main__":
     main() 
