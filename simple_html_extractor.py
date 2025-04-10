@@ -127,14 +127,20 @@ def get_value(elem, method, index=None):
         return ''
         
     if method == 'alt':
-        return elem.get('alt', '').strip()
+        value = elem.get('alt', '').strip()
     elif method == 'text_with_breaks':
         parts = elem.get_text(separator='<br>', strip=True).split('<br>')
         if index is not None and index < len(parts):
-            return parts[index].strip()
+            value = parts[index].strip()
+        else:
+            value = ''
     elif method == 'text':
-        return elem.get_text(strip=True)
-    return ''
+        value = elem.get_text(strip=True)
+    else:
+        value = ''
+    
+    # Normalize spaces - replace multiple spaces with single space
+    return ' '.join(value.split())
 
 def extract_data_by_pattern(soup, patterns, column_names):
     """Extract data using discovered patterns."""
