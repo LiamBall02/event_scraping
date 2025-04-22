@@ -1,51 +1,801 @@
 firstName,lastName,jobTitle,organization
-Iveta,Chadimova,Digital Marketing Tutor,Freelance
-Zakaria,Zerari,Student,University
-Robert,Davis,Programme Growth Manager,LDN Apprenticeships
-Richard,South,GTM & Partnerships,StackOne
-Samuel,Carrington,Presenter,Science Dome
-Nasir,Abbas,Director,Voplo
-Syarief,Husin,Founder,Gladhi AI
-Rachael,d'Arcy,Head of HR & Training,CSP
-Diana,Nemethne Tolvaj,Product Manager,Zellis
-Sue,Purcell,Managing Director,AGA Performance Ltd
-Artem,Sagdiiev,CEO,The APP Solutions
-Lisa,Bell,HR Director,The Little Workshop Company T/A Tell Jane
-Daniil,Mintc,Business Developer,OpenWeather
-Ramadan,Gushti,Sr.HR advisor,Zallaf Libya
-Surbhi,Kumari,Business Development Associate,SSPL EXIM
-Swati,Kurle,HR and payroll support officer,Oxford city council
-Gulshan,Saleem,Sr. HRBP - L&D Lead,Hitachi Rail
-Cheryl,Miles,Partner Manager,Evaluagent
-Duncan,Ledger,Sales Director,TrainingZone
-Becky,Norman,Managing Editor,HRZone | TrainingZone
-Fernando,Braz,Photographer,Fernando Braz photography
-Louise,Blundell,Learning and Development,Learning and Development
-Safa,Alsaleh,HR manager,Puffit Limited
-Richard,Perry,Director,StratNav
-Saurabh,Navande,Director,Univive
-Kush,Shukla,Freelance,Tan90
-Alasdair,Lane,Director for Growth,KNOLSKAPE
-Jaseem,Achoth,Sales Director,Freston Analytics Uk Limited
-Emily,Schlomann,HR Consultant,Shard Works
-Navroop,Kullar,Learning and Development Manager,Royal Albert Hall
-Rose,Goggin,Market Executive,Enterprise Ireland
-Suraj,Sonu,Product manager,Hire
-Carol,Turner,HR Manager,Contactum Ltd
-susan,connolly,Director,TaylormadeTravels
-BISMARK,PRAH,SENIOR HUMAN RESOURCE MANAGER,PANTANG HOSPITAL
-Craig,Kane,Training & Competence Manager,CAF Rail UK
-Esan,Akhtar,Founder,Veloxiz
-Philip,Adeboyejo,Software Engineer,Favickay
-Iliana,Kapnidou,Global retail training specialist,Pandora
-Kobi,Zurich,Learning and Development Manager,Flex
-Will,Pollard,Interviewer,RGB
-Surya,Varatharajan,Founder,Yosanie AI
-Lindsay,Senior,Talent Manager ,Essentra
-Robin,Adda,Founder CEO,SkillsAssess
-Guy,Sorrill,Managing Director,Sysdoc Ltd
-Nikhil,Bonguluri,Senior Sales Development Representative,Darwinbox
-Caron,Betts,Learning Technology Manager,Kaplan
-Pete,Marnoch,Head of Partnerships,Eploy
-Georgie,Walker,Senior Education & Media Manager UK & NL,Caseware
-Lynne,Thorne,Director of Business Development,CMP Solutions
+Geoff,Speed,Head of Talent Development,Médecins Sans Frontières
+Richard,Nice,People Systems Manager,Doctors Without Borders/Médecins Sans Frontières (MSF UK)
+William,Moradi,CEO,Jahopp AB
+Esther,Cook,Director,The Leigh Institute
+Michelle,Mitchell,Head of Learning Impact,Learnlight
+Nicola,Phillips,Learning and Development Lead,Alliance for Better Care CIC
+Jessica,Marshall,Programme Manager,Embed
+Jonathan,Clegg,Learning Technology Specialist,Post Office
+Helen,Hope,Learning Design Consultant,Post Office Ltd
+Nicole,Horsman,Co-Founder,Embed
+Louise,Su,Digital Learning Lead,St Andrew's Healthcare
+Ellie,Biggs,L&D Administrator,St Andrews Healthcare
+Penny,Trayner,Clinical Director,Clinical Neuropsychology Services Ltd
+Ellie,Johnson,Head of Production,iHASCO Ltd
+Robert,Murray,Company Director,CORE Data Systems Ltd
+Imran,Al-Farzal,Co-CEO,KEATH.ai
+Alison,Knight,Digital Learning Specialist,Health and Safety Executive
+Nick,Clench,"Director, Learning & Development",IMG
+Dave,Muir,Lecturer Engineering Automation,City St Georges University of London
+Kate,Patten,Business Systems Support Analyst,Volac International Ltd
+Stacey,Landsberg,Learning Lead,Via
+Ben,Woodruff,Learning Lead,Via
+Karolina,Grzegorzak,Project Manager,School for Leaders
+Paul,Wilson,Digital Learning Lead,Anthesis
+Shaun,Arnold,"Technical Products, Solutions & Development Trainer",Konica Minolta
+Charles,Horton,Head of Platform Development,AdaptiVLE
+Jermaine,Odunaike,L&D Manager,Storio Group/ Photobox
+Courtney,Dias,Senior L&D consultant,QXi
+Kathleen,Jowitt,Assistant Education Officer,UNISON
+Martin,Samson,Content Excellence Lead,Skillcast
+Vasiliki,Michou,Head of Marketing,LearnWorlds
+Felix,Angadi,Talent Development Administrator,Médecins Sans Frontières
+Daksha,Patel,Programme Manager,Omniplex Learning
+Emma,Kendrick,L & D Manager,TGI Fridays
+John,Cole,Learning and Development Manager,Hillier Nurseries Ltd
+Katie,Reilly,L&D Lead,Octopus Energy
+Trevor,Lynch,Owner,Reimagining Performance
+Thomas,Hines,Founder & Director,Hinesight
+Rich,Benson,Founder,RBC
+Cherise,Lindsey,Chief Marketing Officer,Smart-Training AI
+James,Daniels,Manager of Digital Learning,RELEX Solutions
+MIya,Hukins,Training Coordinator,R3
+Matthew,Wilson,Consultant,SpillConsult
+Lotte,Williams,Senior Manager,Haysmac LLP
+Will,Winstone,Director,Haysmac LLP
+CHUKWUEMEKA,AZUBUIKE,NETWORK ADMINISTRATOR,ZUBBYBABS VENTURES
+jack,Brady,Senior L&D Partner,MSI
+Janet,McCarthy,Senior L&D Coordinator,National Audit Office
+Josh,Wakeling,Head of Training,Elmhurst Energy
+Amelia,tlusty,Partnerships Manager,Girlguiding
+Beth,Marshall,HR Advisor,Paul Hamlyn Foundation
+Charley,Helfet,eLearning Developer,RSM International
+Rebecca,Partridge,Learning Content Manager,Arbor Education
+Anna,Jones,Learning and Development Specialist,Motability Operations
+Lucy,Blake,Head of learning,Happy
+Jack,Riley,Business Development Manager,Extend Education
+Monisha,Sharma,Lead Tech Trainer,Travers Smith LLP
+Kevin,Davies,it instructor,Travers Smith LLP
+Paul,Slattery,Managing Director,NxtGEN Executive Presence
+Flaminia,Raiteri,Learning and Leadership Manager,Skyscanner
+Dean,Alves,HRD,Hall & Woodhouse
+Marquita,Celestine,Client Account & Business Development Manager,The Nautical Institute
+Matt,Wingfield,Managing Director,Edtech Horizons Ltd
+George,Logan,Consultant,G R Logan
+Olivia,Allum-Cornforth,Training Solutions Manager,Optimum
+Matthew,Cox,HR Development Manager,Epwin Group
+Amy,Fletcher,Programmes and Virtual Training Manager,Marine Society and Sea Cadets
+Luke,Dylan,Senior Marketing Manager,PageTiger
+Tom,Harrison,Head of Technology & Capability Group,UK Defence Academy
+FATI,MBILLA,TEACHER ( BASIC DESIGN AND TECHNOLOGY),ST. PATRICK INTERNATIONAL SCHOOL
+Raf,Alvarez,Founder,The LEAFAR Group
+Dave,Collingwood,Area Manager,CAPITA Fire and Rescue
+Amira,Elhamaky,Senior Learning and Development Consultant,OneTrust
+chand,pasha,AI learning expert,tecj mahindra
+Ortal,Shmaltz,CEO,Ortal Knowledge Managment
+Jp,Pirie,Learning Designer,Magic23
+Mike,Corker,Learning programme manager,Offpiste consulting
+Mark,Garratt,Police Constable,British Transport Police
+Samantha,Cholewa,Head of Customer Success,Recruitment Juice
+Grace,McKenna,Learning Technologist,Peel Ports Group
+Luis,Santos,Rgn,Hallmark
+Paula,Davis,Director,Waypoint GRC
+Anya,Shaw,Customer Support Training & Documentation Manager,Cambridge University Press and Assessment
+Clare,Hodgson,Director of Learning and Commercial,ACCA
+Russell,Dines,Learning Technologist,South Essex Colleges Group
+George,Rex,Operations Director,SVC Ltd
+Perry,Bird,IT Training Business Partner,Royal National Lifeboat Institution (RNLI)
+Matt,Watts,Training Manager,England Rugby
+Neil,Stevens,"Lead, EST & INTL Field Platform Training",Astellas Pharma Europe Ltd
+Kevin,Robinson,Quality & Coaching Team Manager,Motability Foundation
+Skyla,O'Brien,People & Talent Partner,ComeOn Group
+Rosalyn,Viney,Senior L&D Manager,ASK Italian
+Mahmoud,Embaby,CEO,Impact for Learining & Development
+Richard,French-Lowe,OD/ L&D Consultant,FrenchLoweLearn
+Amad,Ahmed,Tech consultant,Cabinet office
+RAFIK,BENZIADA,INGENIEUR EN INFORMATIQUE,EHS DR MAOUCHE MOHAND AMOKRANE
+Alex,Thompson,Learning & Development - Volunteers & Clubs,Rugby Football Union
+Dario,Di Sarno,Enterprise Sales Specialist,CoachHub
+Pelin,Temiz,Multimedia Coordinator,BrandEd
+Rachel,MacDonald,Head of Learning and Development,Kennedys Law
+Vishal,Sakaria,Software engineer,Praisely
+Andrew,Robinson,Director,A Robinson Training Ltd
+Paul,Doyle,Content Localisation Specialist,Stellantis UK In Partnership with Calex UK
+Louise,Clare,Learning Content Manager,TEKsystems
+Brendan,Hyland,Sales,Numeracy for Life
+Chloe,Hall,CMO,Country Navigator
+Nikki,Samant-Jones,CRO,Country Navigator
+Neran,Ashkenazi,CEO,OnClick Solutions
+danny,langley,CEO,ZISHI Group
+Kevin,Hannigan,Head of Talent Consulting,HPC
+Sabrina,Kern,project leader,HRM Institute GmbH & Co. KG
+Nezda,Leigh,Training Support Administrator,BIFA (British International Freight Association)
+Louisa,Ford,Learning and Development Specialist,The Royal British Legion
+Zuana,Klaskova,Learning and Development Manager,The Property Institute
+Tye,Shuttleworth,Assistant Director Sea Cadet Learning,MSSC
+Charlotte,Plumb,L&D Specialist,BVRLA
+Conor,Freeman,Sales,Essential Computing
+Andrew,Hardie,Director,Devoperative Ltd
+Marianne,Knott,Organisational Development Manager,London Borough of Barking and Dagenham
+Nozinhle,Kasaval,Learning Consultant,GP Strategies
+Shokri,Weheliye,Capability Coordinator,Department for Business and Trade
+Sebastian,Shahbakhti,Director,BTS
+Ross,Moorhead,Head of Sales & Solutions,Essential Computing
+Emma,McAuley,Group Online Designer,Activate learning
+Niamh,O'Sullivan,Staff Development Consultant,UAL
+Laura,Akers,Senior Learning & Development Manager,GAIL's Bakery
+Alexander,Clemons,Technical Author,AC Authoring
+Demi,van der Venter,Head of Learning & Development,GAIL's
+Rebecca,Shaw,L&D Creator & Facilitator,Acas
+John,Keane,Consultant,JKDA
+Saheeb,Hussain,Learning and Development Business partner,West Midlands Trains
+Izzy,Lange,Talent Development Team Manager,Warwickshire County Council
+Jo,Garcia,Elearning,RCM
+James,Dolan,Head of Solutions & Education,Alto Software Group
+Sindhu,Baskaran,Digital Learning Facilitator,Newham College
+Craig,Hawkins,Education Officer,Trades Union Congress
+Keiran,Ward,HR and Learning Technology Adviser,polisense
+Tim,Mynett,Owner,TMS
+Catherine,Davies,Senior Education Specialist,Alto Software Group
+Chris,Horroll,Education Specialist,Alto Software Group
+Helen,Robert-Shaw,Education Curriculum Administrator,Dermalogica
+Dean,Marriner,Senior People Development Partner,Trafalgar Entertainment
+Paul,Saunders,Digital learning and design lead,Islington Council
+Robert,McNab,Freelance learning Designer,Pathfinder Training and Development Ltd
+Anna,Gibson,Learning Designer,Home Office
+Tomasz 'TK',Kropiewnicki,Management Trainer and Leadership Coach,TK.coach
+Almudena,Pérez González,Project Manager,WSET
+Oluwole,Oyetoke,Engineer,Eagle Beacon Global
+Blue,Kearsley,Digital Learning Content Designer,Kisimul Group Ltd
+steven,rick,Head of Learning Design & Technology,ECITB
+Mika,Loponen,Training Service Owner,WithSecure Corporation
+Rene,Vestergaard,CEO,Vestergaard & Co
+P,Wotman,Head of Learning Design,Valuation Office Agency
+Uwe,Roeniger,CEO,mybreev G
+Hanka,Musalkova,Learning Technologist,GBS
+Monica,Casale,Culture & Employee Experience,Westminster City Council
+Trevor,Merriden,Managing Director,Merriborn Media
+Jennifer,Painter,Head of Learning Delivery UK,Informa
+Gareth,Luke,Managing Director,CMS Vocational Training
+Rashmi,Menon,Technology Manager,London Business School
+Michelle,Hamer,Head of Client Solutions,Mpirical
+Hadyn,Luke,Director,CMS Vocational Training
+Louise,Domingues,Business Owner,RHF Talents
+Zoe,Fearnley,Manager People Development,PUMA UK&I
+Ben,Love,Head of Learning,Equus Software
+David,Eden,Talent Manager,Ofcom
+Bradley,Moore,Training Development & Innovation Lead,Gb Railfreight
+Deborah,Meekin,Learning & Development Talent Advisor,CITB
+Hardeep,Basra,L&D and Talent Specialist,CITB
+Greg,Cheney,L&D Business Partner,Ofcom
+Kasia,Pawlus,Learning Designer,Chartered Institute of Building
+Sarah,Snook,Senior L&D Specialist,National Audit Office
+Sebastiaan,Neele,Managing Director,inBrain
+Allister,Lundie,Head of Design,Me Learning
+Tammy,Wong,Talent and Learning Advisor,MHRA
+Ric,Hayden,Director,LearningCog
+Tove,Luther,Director of Education Quality & Impact,Cambridge Institute for Sustainability Leadership
+Luke,Farmer,Senior Instructional Designer,Pigment
+Benedict,Holden,Investor,Phoenix
+Ros,Toynbee,Leadership development manager,Ofcom
+Rosy,Jones,Head of ICURe for the SETsquared Partnership,University of Southampton
+Gary,Phillips,Global Product Training Specialist,De'Longhi Group
+Luke,Dornan,Sales and Ops Director,Bolt Labs
+Harriet,Ray,OD Consultant,Hackney Council
+Alvaro,Aldana,CEO,Bolt Labs
+Cristina,Clenciu,Head of L&D,Joy Academy Ltd
+Lisa,Bryanton,Head of Group HR,JGL
+Sarah,Slade,Learning Experience Designer,Sladeylearn
+Michael,Celestin,Head of Learning,Knight Frank Promise
+Chris,Sweeney,European Training & Development Business Partner,TJX Europe
+Rosa,Whitfield,Head of Teaching and Learning,Insurance Institute of Ireland
+Dan,Berlovitch,Global Legal Learning and Skills Lead,HSBC
+Mike,Heckman,Training and Support Manager,CoolCare
+Sarah,McNamara,Commercial Managing Director,Autonomy Multimedia Ltd
+Julian,Chaffey,Project Mgr,TTS
+David,Kidd,Director,Focused Leaders
+Andreea,Elefteriu,COO,Gedank Rayse
+NORBERT,ANTONY,Finance L&D Lead,Department for Transport
+Rachel,Yates,Global Engagement Manager,HSBC
+Lisa,Boore,Training Administration & Sales,CORGI Technical
+Lauren,Selwood,Head of Digital Learning & Experience,St. James's Place
+Sherica,Richards,IT Support Technician,Shahzure Systems
+Julian,Stodd,Author - Researcher - Artist - Explorer,Sea Salt Learning
+Nicola,Walker,L&D Manager,whg
+Owen,Worts,Creative director,Mindboost learning
+Maria,Bohman,Head of production,Funkis Multimedia
+Claire,Harrison Bradley,Director,The Learning Workspace Ltd
+Sam,Cook,Lead Quality Analyst,Intellum
+Adam,Evans,Learning & Development Manager,Sytech Consultants
+Daryl,Noble,IT Trainer,Kennedys
+Joy,Breen,People Director,Wanstor
+Mustafa,Ravi,HR Apprentice,House of Lords
+Sija,Sotiriou,Business Change Consultant,BR One Consulting
+Dan,Chronnell,VP Product,Go Product
+Hristo,Burudzhiev,Program Coordinator,DeLaval International AB
+David,Jones,Digital Learning & Development Specialist,Monmouthshire Building Society
+Rebecca,Huws,Senior Talent and Learning Manager,Monmouthshire Building Society
+Sandra,Wood,HR Business Partner,Caseware
+GRAHAM,HUTCHINGS,CEO,PROFITABILITY BUSINESS SIMULATIONS LTD
+Jo,Draper,Director,QuoLux
+Charlotte,Wright,L&D Specialist,Amplius
+Hassan,Nobeeboccus,Project Editor,City & Guilds
+Marianna,Goral,Product Manager,AAT
+Anastasia,Kusnadi,Technical Project Manager,Progressay
+Olha,Panchuk,Director,Smart Protect
+Louise,Brooks,Learning and Development Advisor,Chelsea Football Club
+Emma,Crawley-Moore,Customer Experience Manager,Jam Pan
+Mykola,Beznisko,CEO,Techvision
+John,O'Neill,Commerical Director,Jam Pan
+Megan,Palmer,Onboarding & Training Manager,Hotelplan LTD
+Hazel,Tetcher,Technology Solutions Delivery Manager,Jam Pan
+Will,Prestes,Instruction Designer & e-Learning Developer,Appy Learning
+Shiv,Rajendan,L&D Partner,Rathbones Group
+Jemma,Carpenter,SAF Systems Manager,Finance and Leasing Association
+Andre,Ashby,Global Aftersales Training Manager,INEOS Automotive
+Ellis,John,Technology Delivery Manager,Imperial College London
+Ashley,Garner,Head of Production,Limetools Limited
+Inigo,Campbell-Lange,Account Executive,Havas People
+Sam,Spencer,Head of Strategy,Lima Delta
+Holly,Sweet,Training Manager,John Wiley & Sons
+Rebecca,Robinson,Talent Manager,Battens Solicitors Limited
+IKO,TRESOR,Directeur Gerant,africa business center
+Anna,Kucharava,Senior Manager Learning Solutions,Daiichi Sankyo Europe
+fauveau,nathalie,Training Manager,CENTREON SOFTWARE SYSTEMS
+Sarah,Dawodu,UK Training Advisor,Noatum Logistics
+Linda,Howdon,Managing Director,th!nk academy services
+Massimiliano,Pisaneschi,Owner,The Maple Leaf srl
+Nicola,Slater,People Development Manager,Unily
+Owen,Ashby,The People Tech Navigator,Maverick Spark
+Andrei-Cosmin,Incze,LMS Senior Associate,Ambition Institute
+Luke,Scott,L&D Training Team Manager,Motability Foundation
+Eloise,Weech,Sales Trainer,Informa Markets
+Peter,McRae Ironside,Digital Change & Training Manager,IWM
+Fady,Abdul Khalek,Managing Director,IQUAD Learnig Solutions
+Luke,Harmer-Mullins,Head of Digital Projects,ASCL
+Carolyn,De Martino,Learning & Development Manager,Family Building Society
+Katie,Swandale,L&D Business Partner,Immediate
+Michala,Gardiner,IT Trainer,Orrick
+Michael,Slevin,Digital Learning Technologist,ICS Learn
+Aneta,Stokes,L&D Partner,MiQ
+Ian,Shaw,Divisional Manager - Engineering Services,Certex
+Hannah,O'Brien,Digital Learning and Operations Manager,The Health Research Authority
+Victoria,Bruck,Regulatory HR Analyst,Evelyn Partners
+Peter,Waller,Managing Director,On Track Learning Ltd
+Sally,B,CRM L&A Manager,Mind
+Daniel,Caborn,Talent and Development Manager,Wienerberger UK & Ireland
+Beth,Azzopardi,HR Manager,Albert Bartlett
+Gary,Noone,Software Development Engineer,Workday
+Rose,Cotton,External Relations & Events Coordinator,Big learning Company
+Cheryl,Thunder,L&D Manager,Matheson
+Solange,Moret,CEO,Women in Sight
+Rene,Marius,Learning and Development Manager,Aperio Intelligence
+Belliziana,Bohnz,Digital Creator,Bellision Limited
+Demilade,Olaosun,Founder/CEO,The DD Affiance Project Limited
+Claire,Fears,Audit Pathways Lead,NAO
+Dario,Sambunjak,Senior Learning Content Officer,Cochrane
+ROSIA,VOZA LUSALA,Sales Consultant,TRESORMBT TECHNOLOGY
+Khilit,Shah,Capability Development Associate Director,GSK
+Igor,Koliushev,Technical Director of Project,VR Learn Hub
+Pavel,Shpilevoi-Shatskii,Legal Manager of Project,VR Learn Hub
+Vadim,Sillerov,Finance Director,VR Learn Hub
+Steve,Vinall,IT Director,Inspiro Learning Ltd
+Fabio,Gatto,Head of Learning Technologies and Innovation,NT Group
+Paul,Vine,Training Manager,NECSWS
+Scott,Price,Learning and development business partner,Chelsea Football Club
+Andy,Costello,Global Learning Partner,Do Think Do
+Steve,Blackwell,L&D BP,NDCS
+Biraj,Naidoo,Managing Director,Humming Learn
+Ayse,Durgut,Learning and Development Partner,Southwark Council
+Swapnil,Giri,Assistant Product Manager,TalenTeam
+Daniela,Rosal,Responsable Formation et Qualité,Sézane
+Daniela,Corallo,Coaching and Leadership Lead,National Audit Office
+Daniel,Green,Operations Director / Senior L&D Consultant,Foxtons Group Plc
+Emma,Smart,Director,Planet Training Ltd
+Christopher,White,Partner Sales Director,Skillsoft
+Sander,Thorrez,L&D expert,Edtech Station
+Connor,Higgs,Senior Learning Designer,QA Ltd
+MOHAMED,ELAWAM,owner,Login for Computer Systems
+Rachel,Carter,Training Manager,UK Finance
+Daniela,Oprea,L&D Coordinator,Delonghi
+Natalia,Gil,Senior Researcher,Education and Training Foundation
+Freya,Cottrell,Corporate Partnerships Account Manager,Girlguiding
+Colin,Day,Managing Director EMEA,Oktopost
+Federica,Ceresa,Director,The Resilience Equation
+J,Hameed,Technical Projects Officer,University of Reading
+Diana,Teaca,L&D Advisor,MHA
+Mar Joseph,Edjan,IT Trainer,"Barking, Havering and Redbridge University Hospitals NHS Trust"
+Duncan,Targett,Founder,On Targett Consulting
+Ed,Birch,Consultant,Ed Birch - e-learning expert
+Kenneth,Crowley,IT Business Partner,Howard Kennedy
+Andrea,Cook,Director,ICAEW
+Courtney,Hunter,People Development Advisor,Vistry Group
+rob,bedwell,Head of Global Solutions,The Gap Partnership
+Lloyd,Salmons,Co-Founder,PepTalk
+Jose Roberto,Leonel da Silva,Learning Technologist,Southwark College
+Mark,Pow,Head of Learning & Development,BVRLA
+Emre,Ozan,Senior Consultant,Oz Strategic
+Simon,Spindler,Director,People and Performance Consulting
+Andrew,Gladden,Software Developer,RAF Cosford
+Emma,Withnell,Learning Technology and Partnerships Manager,LiveWest Homes Ltd
+franco,moroni,SME,SureSkills Limited (Partner)
+Dave,Strydom,Learning and Development Lead,Eeze Entertainment UK
+Elaine,Kayes,Senior Manager,Kennedys Law
+Robert,Swift,Sales & Marketing Executive,Peritus Learning
+Bryony,Harrower,Chief Product Officer,Country Navigator
+Anthony,Chung,CEO,Egraduate College
+P.,Burton-Gayle,"Creative Ai and Fashion Designer, Ai Consultant and Prompt Engineer",P Kuumba Designs
+Obiajulu Princess,Ugwu,Lawmaker,Enugu State House of Assembly
+Roxanne,Ward-Williams,CPD Coordinator,Foster + Partners
+Terry,Bateman,Principal,Bateman Training & Development
+Amy,Woodward,Product Applications Training Manager,Distech Controls
+Ian,Robinson,Senior EMEA Corporate HR Manager,Toshiba Europe Limited
+Emma,Everson,Product Manager,BCS The Chartered Institute for IT
+Jane,Hennequin,Learning and Development Lead,Pension Insurance Corporation
+Lewis,Jones,Video Editor,Mentor Group
+Sophie,Dyer,eLearning Developer,Mentor Group
+James,Barton,Chief Solutions Officer,Mentor Group
+Harriet,Guojah,Product Manager,Mentor Group
+Stewart,Maxwell,chartered physiotherapist,self employed
+Jonathan,Matthews,CEO,The Career Innovation Company
+thea,jaffe,Account Development Manager,Cartus
+Louise,Keegan,Events & Membership Manager,Learnovate
+Navjot,Kaur,Learning Technologist,Global Banking School
+Andrew,Gooch,Training and Services Director,Holdfast Training Services
+Trev,HUTCHINSON,RDO,British Transport Police
+Roy,Ouambo,Quality Assurer,LITC
+Muhammad asim,Javaid,Senior lecturer anatomy,Anglia Ruskin University
+Claudiney,Gontijo,Clinical Training Specialist,Elekta
+Cezar,Farias,Designer,LifeLearn
+Carolin,Lueken,Head of Customer Succes and Training,TicTac Learn GmbH
+Tamsin,Johnson,Learning and Certification Manager,The Open Group
+Adrian,Bott,Director,Traineasy Limited
+Myles,Hannon,Global L&D Manager,Control Risks
+Haley,Couzens,Contract Manager,Money & Pensions Service
+Martin,Mackain-Bremner,Owner,MB Consulting Services UK (MBCSUK)
+Keith,Smith,Sales Director,The Training MarketPlace
+Emma,Klosson,Learning Evangelist,SweetRush
+Andy,Winstanley,Head of Operations,Learning People UK Ltd
+Jodie,Johnson,Marketing and Content Manager,Praxis42
+Hitesh,Khatri,Fullstack developer,Akruti Consulting Ltd
+George,Hafil,Digital Learning Specialist,Aztec Group
+Joanna,Griffiths,Marketing Director,FlexiQuiz
+Nicholas,Mills,National Training Officer,Landmark Information Group
+Andy,Fawkes,Simulation and Training Consultant,Thinke Company Limited
+Javier,De julian,Managing partner,Essito partners
+Prajakta,Choudhari,Director,Mituition
+Dan,Youngs,Early Careers Lead,NAO
+Vanessa,Linden,Learning and Development Manager,Prospect Union
+Sean,Dukes,CEO,Learnsmarter Apps Ltd
+David,Towlson,Director of Learning and Assessment,NEBOSH
+Michael,Brown,Head of Learning,Lendable
+H,Tyler-Brown,Change Manager,TBC
+Jon,Ah-Kim,Client Relationship Manager,Nexus Human
+Veronica,Richards,Business Manager,Calibrate Advisory Services
+Per,Bjoedstrup,Global Head of Value Services,SimCorp Ltd
+Sapar,Begliyev,Learning & Compliance Officer,Serco Ltd
+Ellen,Masterson,Training Manager,Albert Bartlett
+Chun,Poon,Senior Backend Developer,Spinnr Tech Limited
+Rosanna,Williamson,"Head of Learning, Education and Development",LEIA
+Anita,Whittaker,M365 Software Trainer,NHS
+Katharine,Westwood,Director of Operations,Padpilot
+Victoria,Winter,Head of L&D,GFT Financial Ltd
+Sam,Simmonds,Project Manager,Toyota GB
+Maria,Margariti,Senior HR Business Partner,Teads
+Lorraine,Taylor,Fractional CLO,LT Learning
+Tony,Hughes,CEO,Huthwaite International
+Priyanka,Mondal,Lead QA,Hawkeyeinnovations
+Thomas,Lindeyer,Managing Director,CCL Academy
+Callum,Macintyre,Learning and Development Lead,Wrigleys LLP
+Darren,Smith,Technical Trainer,Esperienza Learning
+Charles,Ross,Senior Solutions Specialist,Essential Computing
+Dave,Gibbs,Head of Digital Learning,Education Development Trust
+Shalini,Sehgal,L&D Project Manager,GirlGuiding
+Nicola,Eddleston,Training Manager,Bouygues
+Jonathan,Jennings,"Senior Strategic Relationship Manager, EMEA",Harvard Business Publishing
+Manon,Veerman,Student,SV Blended
+Luke,Donkervoort,Senior Strategic Relationship Manager,Harvard Business Publishing
+Barry,O'Brien,Training Coordinator,Local Government Information Unit
+James,Tubb,Senior Director of Client Engagement & Solution Architecture,Area9 Lyceum
+Cerine,Kattoura,Assistant General Manager,IQUAD Learning Solutions
+Tony,Forster,Compliance Manager,Post Office Ltd
+Mounika,Kancharla,HR & Operations Manager,London Business Training & Consulting
+john,kelly,Head of Training,Hickory's Smokehouse
+Helen,German,eLearning Business Coordinator,eLearning Marketplace
+Jo,Kaptijn,Learning Design Specialist,e-studi.co.uk
+Molly,Spears,Learning Content Developer,Phoenix HSC
+Victor,Agboola,Founder,Lumis Academy
+Enza,Burgio,Sales Enablement Manager,Law Business Research
+Raphael,Joseph,Co-Founder,We Are Agentic
+Georgia,Allen,Knowledge Manager,Law Business Research
+Jack,Adkins,Senior Talent Development Partner,10x Banking
+Jamie,Bartlett-McAvoy,Talent Development Lead,isio
+Julie,Edwards,eLearning Developer Team Lead,Tes Global
+Angela,Wands,Sales Trainer and Coach,The Mindful Seller
+Moses,Ayegbe,CEO,Noahs Ark  Tech UK Ltd
+Timothy,Whittlesea,Sr. L&D Designer,Hastings Direct
+Syed,Sharuk,It Engineer,Access Info Sources
+Yolanta,C Smith,Teaching assisant,Samuel Rhodes School
+Claire,Dugmore-Jones,Functional Consultant,Bromford
+Danielle,Meek,Learning Technologist,Gloucestershire Research & Education Group
+Mona,Alinejad,CEO,Elandi.AI
+JOAO,SCHOLZ,Director,Cência - Estratégias de Aprendizagem
+Olivia,Thompson,Regional People Manager,Haines Watts
+Robert,Powell,IT Sysman,MOD
+Dave,Smith,Head of L&D,HCL
+Alicia,Lloyd,Learning Technologist,Isle of Wight NHS Trust
+Brandon,Ziemons,Learning specialist,Zebra
+Alison,Bell,Head Of Learning - Europe,Domestic & General
+Jessica,Tilley,Learning & Development Manager,Man Group
+Anne Kristine,Arbon,Director of L&D,Adair Leadership
+Mary Anne,Bernardo,Head of Media and Sales,Thane
+Martin,Šťastný,therapist,PPP Brno
+Jasdev,Singh,IT Trainer,NEC SWS Pvt Ltd
+Steve,Hayes,Station Manager Learning & Developlment,West Sussex Fire & Rescie
+Kate,Finney,Director,Adair Leadership
+Dhanya,Nair,Learning & Development Manager,Millennium Hotels and Resorts
+Julia,Tierney,"Regional Vice President, EMEA",BetterUp
+Eli,Rezinsky,Founder,Rezinsky Consulting
+Mark,Heslop,Design & Installations Coach,Wickes
+Robert,Gardner,Project Manager,Electric Circus Digital Ltd
+Christopher,Lea,Director,Electric Circus Digital Ltd
+Ayodapo,Sonuga,Business Analyst,Education and Training Foundation
+Sadie,DeRoux,HR Admin,Haines Watts
+Callum,Sharpin,Leadership and L&D Speicalist,Play'n GO
+Oliver,Grace,L&D Specialist,Charity Link
+Natasha,Jasrotia,Learning,Convera
+Dan,Ashton,UI Designer,Kallidus
+Michael,Lowe,Associate Director of People & Workplace,Education & Training Foundation
+Kalyani,Rajput,IT Trainer,NEC Software Solutions
+Ioannis,Photiades,Class teacher,Cyprus Educational Mission
+Gemma,Ward,People Development Advisor,University of Reading
+Jay,Daniels,Digital Product Executive,VisitBritain
+Simone,Callender,Delivery Manager,The SmartyTrain
+Rachel,Stares,"Talent, Learning & Development Business Partner",RVG
+Diana,Molloy,Learning & OD Manager,CQC
+Becca,Nelson,Head of TD,GoCardless
+Marion,Whitty,Head of Talent Development & Performance,Group Lotus Cars
+David,Schorah,Head of L&D,Claranet
+Lisa,Carpenter,Academy / Practice Director,Digital Futures
+Nikki,Ford,L&D specialist,Claranet
+George,Eiloart,Director of Partnerships,Accelerate People
+Neil,Lasher,CEO,2 Late
+David,Reed,Paramedic,David Reed
+Kara,McConway,Graphic design lead,Learnning Pool
+Miguel,Moreno,Content & Learning Platform Manager,Abacus Medicine
+Rich,Schollick,Digital Learning Design Specialist,Burges Salmon LLP
+Sara,Barrento,Head of Traning,FAI
+Adam,Yeadon,Head of Technology,FAI Farms
+Claire,Owen,Franchisee,Kefco Sales Limited
+Clare,Bury,Training Manager,Air Safety Support International
+Peter,Evans,Global Head of L&D,Vista Group
+Max,Gabriel,Education & Training Content Manager,Amway
+Simon,Rowell,People Development Manager,PKF Littlejohn LLP
+Gwen,Nisbet,Operations Manager,Money and Pensions Service
+Bina,Tailor,Client and Operations Director,People Untapped Ltd
+Ben,Slight,Director of Client Development,Performance Consultants
+Jason,Rassell,L&D Business Partner,CDUK
+Alexandra,Cooper,Learning and Development Business Partner,Keltbray
+Rob,Moss,Head of Learning,UK Finance
+Curzio,Scuffi,ICT Senior Business Relationship Manager,UEFA
+Amanda Claire,Taylor-Bashford,Operations Learning and Development Manager,Natural England
+Arthur,Jones,CEO,The Art of Standing Out
+Dave,Robinson,Consultant,Schools Computing
+Luke,Fowler,Training Support Watch Manager,Oxfordshire Fire and Rescue Service
+Daljit,Sira,Lead HR Business Partner - Operations,RWC
+Priya,Venkatraman,Digital Marketing Executive,Intuition
+Ian,Rawlinson,L&D Design and Innovation Lead,National Audit Office
+Helen,Fullen,CEO,Alinea
+Chris,Pim,E-Learning Developer,Lumina Learning
+Rhys,Davies,Managing Director,White Hart Multimedia
+Stefano,Nuara,Learning & development Manager,Avolta
+Grace,Coburn,Global Retail and Brand Content Manager,ELEMIS
+Alba,Martin,Head of Global Education Content,ELEMIS
+Milan,Khodkameh,Academic Events Manager,Worshipful Society of Apothecaries
+Katie,Turner,Sales Consultant,KnowledgePoint
+Tiberiu,Dinicu,Learning Content Designer,Specsavers Optical Group
+ricky,mahoney,Learning and Development Assistant,eoe coop
+Dominique,Pearson,Learning Specialist,Eurostar
+Chris,Hodgson,Director,Discover eLearning Ltd.
+Rebecca,Fajon,"Senior Lead - Learning, Knowledge & QA",Eurostar
+Adrian,Macey,Learning Technologist,Met Office
+Chay,Hathway,Technical and Development Support Officer,The Football Association
+Renata,Miranda,PR Account Director,Freelance
+Rachel,McGowan,Head of Learning & Development,VIVO Defence Services Limited
+Paul,Thomas,Fractional Lead Partner,pro-spective
+Toby,Barnard,MD - Government,QA Ltd
+Lucia,Reisfeld,Learning & Development Advisor,Saffron Housing Trust
+George,Anthony,Commercial Director,Cambridge Spark
+Trudy,Walker,Pathology Training Manager,Scarborough Hull York Pathology Service (SHYPS)
+Shawn,Ackermann,Director of Professional Services,Elecosoft
+Lura,France,Volunteer Coordinator,Trussell
+Rory,Young,Director,Equitis
+Helen,Shaw,Learning and Development Manager,Hotelplan UK
+Joe,Cheal,Leadership Development Specialist,Imaginarium Learning & Development
+PALEEKA,DAVDA,L&D Manager,Air Products
+Guillaume,Loyau,Director,Yalding Media
+Carole,Piper,Head of Skills development,SJP
+Jan,Wawrzyniewicz,Sales Specialist,Softnow
+Renata,Strzelczyk,E-learning Director,Softnow
+Jim,O'Donnell,LCDM ETCS Compliance,Govia Thameslink Railway
+Surangi,Somaratne,Director,Dhanuma Limited
+Rita,Isaac,LD&I coordinator,F+P
+Maciej,Sieniło,CEO,Softnow
+Josh,Turner,Learning & Development Manager,Humbersidefire Fire & Rescue
+Carl,Green,Training Manager,Wendys
+Ry,Cooper,Learning & Development Technician,Humberside Fire & Rescue
+Andrew,Midgley,Learning & Development Supervisor,Humberside Fire & Rescue
+Emma,Wallis,Learning & Development Technician,Humberside Fire & Rescue
+Susan,Oxburgh,Digital Learning Lead,Macmillan Cancer Support
+Tom,Shury,Talent & Development Lead,Pandora
+Elaine,McGeary,HR Business Partner,National Standards Authority of Ireland
+Bode,Olatoye,Director of Product & UX,Econsultancy
+Francesca,Bonfiglio,HCM Senior Consultant,The Maple Leaf
+Janet,Cooper,Chair,ProShare
+Rasheel,Bhopla,Tech Training Manager,Travers Smith
+Nanci,Dhell,Learning and Development Manager,Mapp (Property Management) Ltd
+Andrea,Baldassa,IT Specialist,Medi K
+Chris,Herron,Principal Consultant (Business Psychologist),Sten10
+Rob,Beattie,Business Improvement Manager,Vodafone Business
+Eliza,Gheorge,Talent & Development Specialist,Pandora
+Ann-Marie,Dangerfield,Talent Development Manager,Cripps
+Jennifer,Shephard,Senior eLearning Developer,PHM Group
+Rasila,Khetia,Director Operations and Exams Delivery,ICAEW
+Elorna,Laudat,Senior Customer Success  Manager,allbright
+Nick,Strong,Business Development Manager,DSA
+Gianpietro,Pucciariello,Director,AppyMaps
+Joe,Birri,Snr Consultant,Edge Consulting
+Nikhil Chandran,Thekkekottaram,eLearning Developer,Claroty
+Lloyd,Smith,Managing Director,Wahoo Learning
+Katharine,Kourpa-Allen,Business Systems Trainer,BR One Consulting
+Andy,Richards,"Director, People Solutions",GoStudent
+Emma,Heaps,Head of L&D (UK & I),Pest Control Partnership
+Peter,Snashall,Training Manager,Pact
+Laura,Chulenbayeva,Researcher,King’s College London
+Katherine,Duxbury,Head of Medical & Editorial,Lucid
+Nana Akosua,Omane,CEO,Unilinx event
+Hesam,Vattani,CEO,VATTANI LTD
+Julie,Aravantinos,Learning Experience Executive,Sainsbury's
+Jessica,Chatburn,Head of Content Operations,Kognity
+Martin,Ross,Senior Learning Architect,The Edge Picture Company
+Silvia,Szombathova,Senior people & Practices Manager,Sasse Limited
+Eduard,Cojocaru,Content Developer,Assist Knowledge Development
+Brandon,Tregidgo,Talent & Culture Lead,Fluid Branding
+Tamas,Kery,elearning assistant,CEPOL
+Robin,Doughty,L&D Specialist,Activate Learning
+Edward,O'Keefe,Business Development Manager,Alpha CRC
+Hannah,Evans,Learning and Talent Partner,Financial Times
+Gary,Adams,Talent and Training Manager,Hedin Automotive
+Clay,Lowe,Learning Experience Designer,Clay Lowe Learning and Performance
+Ed,Drury,People Operations Manager,Acis Group
+Catherine,Everatt,Payroll and Benefits Advisor,Acis
+Sadeev,Silva,Innovation Manager,Global Edulink
+Elaine,Hatzel,Learning Business Partner,Acis Group
+Tara,Costa,Operations Manager,Money and Pension Service
+Jasmin,Andrews,L&D Specialist,The DPO Centre
+Chitra,Cherodian,Training Specialist,C J Consulting
+Samantha,Livingstone,Markting Manager,SQEPtech
+Eshika,Chattopadhyay,Instructional Designer,TEKsystems
+Gemma,Hunt,Senior Trainer and Developer,The Donkey Sanctuary
+Pauline,May,Learning and Development Admin Lead,Abri
+Lisa,Dempster,E-Learning Consultant,English Heritage
+Claire,Dowdall,Head of Brand and marketing,Phil M Jones LTD
+Louise,Lincoln,Global Learning and Development Manager,Control Risks
+Graeme Paul,Wilkinson,Training Development Manager,BIFA
+CHUKWUEBUKA CHARLES,EZENDUKA,Asst council engineer,KOSOFE LOCAL GOVERNMENT COUNCIL
+Ruth,Granton,L&D Manager,The Royal Society
+Steve,Webster,Commercial Manager,CEDR
+Katrina,Huggins,People Manager UK & Israel,Cathay Pacific Airways
+Lida,Bayat,Educational Technologist,BrandEd Holdings
+Francesca,De Cozar,Sales + Admin,BVRLA
+Joel,Podolski,Learning Designer,Alto Software Group
+Daniel,Stanger,Trainer,CIS Security
+Alice,Thompson,L&D Manager,Marks and Spencers
+Bonnie,Duncan,Digital learning designer,LDN Apprenticeships
+Emma,Savin,Head of Talent Management,James Fisher Plc
+MOHAMMED,INUSAH,TRANSPORT OFFICER,AS UDIES VENTURE
+Katie,Smith,L&D manager,Sweco
+Matt,Gascoigne,Founder,Thrive Consultants
+Elizabeth,Steven,Global Client Service Development Manager,Oxford PharmaGenesis
+Bas,Taalman,Managing Director,PlusPort
+Martin,Condy,Learning and Organisational Development Business Partner,Cardiff and Vale College
+Tony,Keeling,Continuous Improvement Director,BMT
+Peter,Wood,Immersive Consultant,Vertical Realities
+Janice,Campbell,IT Trainer & Instructional Designer,ACS Ltd
+Amy,Henderson,Management Consultant,Gate
+David,Rodriguez-Vega,External Training and Platform Specialist Consultant,Chartered Association of Business Schools
+Katie,Blainey,Head of Product,Elucidat
+Laura,Fenton,Management Consultant,Gate One
+Carly,Tysoe,L&D Consultant,CT Consultancy
+Sharon,Webber,L&D Manager,Origin Housing Limited
+Gerald,Berkowitz,Editor,Radionet News
+Burak,Pekcan,Fıunder,RoT Studio
+Jude,Marriott,e-Learning Designer,Air Charter Service Ltd
+Kiran,Kapur,CEO,Cambridge Marketing College
+Carmen,Topliceanu,HR BUsiness Partner,Compassion
+Anna,Bishop,eLearning consultant,Catalyst EU
+Hazel,Fernandes,Commercial Procurement Manager,Rail Safety and Standards Board
+Philip,Richards,Head of L&D,Bank of China UK Limited
+Ednilson,Marques,L&D Coordinator,Vegner Group
+Stephanie,Hicks,Talent Development Advisor,Ocado Group
+John,Haynes,Managing Director,Switch Learning Ltd
+Marianne,Rogers,eLearning Editorial Coordinator,The Royal College of Psychiatrists
+Jo,Latter,Training Consultant,AXA Global Healthcare
+Debbie,Laird,Head of People Operations,Bedford Consulting
+Michael,Hoffmann,Owner,generation:l enjoyable education
+Paul,Fenwick,Director,Caimino Consulting
+Oluwaseun,Olofin,Technology Manager,London Business School
+Kate,Mansfield,Director,Career Counselling Services
+Paul,Hunter,Director of Programs and Learning Design,IMD
+Michelle,Toward,HR Director,Omniplex Learning
+Judy,Flaschmann,Manager & Leadership Development Lead,HOUSE OF COMMONS
+Bartek,Ogonowski,CEO,LEVRA
+Moad,Bensaid,Ai engineer,CFA
+Christiaan,Walstock,Senior Advisor,LUMINUS FINANCE LIMITED
+Helen,Trinh,Senior Learning & Development Advisor,Keltbray
+Noushin,Kananian,CEO,Noushin Consulting Ltd
+Fiona,Hewitt,Founder,Unboxable
+John,Edmonds,Co-Founder,Peer Skills Ltd
+Liz,Starbuck Greer,"Director, Strategic Partnerships",Moodle
+Samantha,Hurwitz,Chief Encouragement Officer,FliP U
+Matt,Wainwright,Learning and Development Manager,Vitaflo
+MEHMET SAIT,KOSEOGLU,Software developer fellow,01 FOUNDERS
+Magda,Teclaw,Principal,Campus Benke
+Morten,Damsleth,COO,Skillcast Group plc
+Michael,Naser,Dir Business & Partnerships,Net2Learn Technologies
+Phil,Clarke,Director,Loop
+Ariane,Sanders,Interior designer,Morgan lovell
+Gilles,Michenaud,Senior Partnership Manager,Elucidat
+Stuart,Birley,Chief Learning Technologist,Pathfider Digital Consultancy
+Allan,Clarke,HR Consultant,Spencer Clarke Consulting
+Ahmed,Hussen,Learning & Development Coordinator,Pension Insurance Coorperation
+Daniel,Marcus,Instructional Designer,Skillcast
+Barrie,Underwood,Sales Team Lead,Science Photo Library
+Neil,Pearson,Senior Learning Developer,Me Learning
+Karin,Holland,Learning & Development Trainer,East of England Co-op
+Andrew,Woods,Managing Director,Ask Us Consulting
+Amos,Raban,Managing Director,Amos Raban LTD
+Ryan,Haslam,Digital Learning Manager,The Gym Group
+Natalie,Ademakinwa,Talent Development Consultant,MFS
+Prashil,Deshmukh,Learning and Development Co-ordinator,The Samaritnas
+Andrew,mcivor,Product Development Lead,RICS
+Morgan,Thomas,Business Development Manager,iVentiv
+Janet,Wynne,Digital Learning Manager,Shoosmiths
+Jack,Stewart,E-learning Manager,Williams Lea - TSO
+Alistair,Johnston,Innovation Consultant,SkillBridge Consultants
+Liz,Woolard,Digital Learning Designer,Bupa
+Valerie,Merrill,MD/Learning & Development Consultant,Merrill Consultants Ltd
+John,Rowley,Consultant,NIIT
+Ryan,Thomson,"Senior Director, Knowledge and Education",Keyloop
+Paul,Quish,Operations Director,The Greenane Centre
+Jessica,Paton,Founder,Coach Yourself Better
+Matt,Patterson,"Director of Business Development, eLearning",PGLS
+James,Brand,Senior Producer,College of Policing
+Amy,Martin,Digital Change Lead,The Insurance Institute of Ireland
+Melissa,Morgan,Learning Designer,Canada Life
+Kate,Alaway,Head of Workforce Development,Homeless Link
+Sarabha Saaluvesh,K,Technical & Training Specialist,Network Rail
+Jo,Kerr,L&D Coordinator,SDS
+Katherine,Weeks,Talent & Potential Lead,NeuroPotential UK
+Bryan,Burgess,Learning Developer,CIPD
+Colin,Newbold,Founder & CEO,click-360
+Karen,Wane,Client Partner,QA
+Estelle,Coughtrey,Client Relationship Director,QA Ltd
+Christelle,Carel,Client Partner,QA
+Maria,O'Callaghan,Business Development Manager,Emerald Hill Ltd
+Nicole,Kariotis,eLearning Administrator,Royal College of Psychiatrists
+RICHARD,JONES,TRAINING MANAGER,Abbott
+Chris,Pett,Director,Edio Education Ltd
+Dean,Schirwing,Digital Learning Consultant,Kainos
+Marcela,Gondek,Training Lead,Synnovis/NHS
+Carol,Tuncel,"Department manager Development, Communication and Democracy",John Lewis
+Ilona,Gizi,Event organizer,"The Russian Fund of Educational Programs ""Economics and Management”"
+Eunice,Thomas,Founder /Coach,mememeltd
+Stanley,Tsang,L&D Business Partner,RCPCH
+Greer,Hopkins,Expert Experience Lead,Limitless Technology Group Limited
+DESMOND,KARIKARI OSEI,CHIEF EXECUTIVE OFFICER,DETERMINATION 360 LIMITED
+Frankie,Regan,Sales Account Manager,Simulanis UK
+Gavin,Rowe,Training Design Warrant Officer,Royal School of Military Engineering
+Margo,Fernandez,Sales,TAEC
+Sian,Hamlett,Managing Director,Hamlett Films
+Silvia,Rodriguez,LMS Co-Ordinator,Money & Pensions Service
+Liz,Sheeran,Digital Learning Advisor,RSPCA
+FREDERICK,OHENE NYARKO,GENERAL MANAGER,FJK ROYAL CONSULT
+Valeriano,Kataya,Professor,Vganda
+Angela,Duke,Senior Account Executive,TicTac Learn GmbH
+Giacomo,Jürs,Senior Account Executive,TicTac Learn GmbH
+RUSSELL,JOWETT,Senior Learning Consultant,Peak Pacific Limited
+Tracy,Wilmot,Compliance Learning Associate Director,GSK
+Sandra,Jowers,Managing Director of Change Science,Proteus
+Marc,Wilson,People Systems Manager,Provide Community
+Robert,Friedrich,Teamlead Sales,TicTac Learn GmbH
+Diana,Vlad,Product Designer,flick learning
+Barny,Overton,Head of Product,flick learning
+Ethan,Roberts,Change Science Specialist,Proteus
+JJ,Raines,Product Designer,flick learning
+Jenna,Whelpton,Learning Technology Advisor,Sheffield Children's NHSFT
+Laura,Caveney,Head of Marketing,BuildEmpire
+Sunil,Rana,Training Design,MOD
+Liam,Archibald,Senior Learning Designer,Howdens
+Liam,Briggs-Campbell,L&D Partner,ABP
+Kafui,Tay,Learning and Development Coordinator,House of Commons
+Atul,Shetty,Founder and Principal Consultant,Growth Axon
+Sarah,Street,Service Design Architect,Skillsoft
+Ian,Mair,Head of Digital Media,Capita
+Gary,van Oss,Deputy CEO,Remarkable Autism
+GRACE,WILSON,"HR OFFICER, BUSINESS PARTNERING",COMMONWEALTH SECRETARIAT
+Darren,Devine,"Director, Education",Camunda
+Ruth,Talbot,Professional Services Consultant,Kallidus
+Varinder,Kumar,IT Developer,Techgeek
+Nathan,Fowler,CEO,Freevacy Ltd
+Beth,Martin,Clinical Training Manager,International SOS
+Adele,Rowe,Senior Payroll Officer,Taking Care
+Hannah,Mitchell,People Experience Senior Manager,Peninsula360
+Lucy,Seex,L&D Advisor,Peninsula360
+Walyd,Abdallah,Business Development UK,Learninghubz
+Ahmed,Eliwa,CEO,FluxTech360
+Erica,Ryan,Head of Digital Content & Media,University of Cambridge Online
+Cristina,Rodriguez Wilson,Founder CEO,AI 4 The Future
+Amanda,Goodger,Staff Development Lead/AI and cybersecurity specialist,University of Hertfordshire
+Chris,Gale,Head of Business Development,Trainspeople
+Charlotte,O'Hara,L&D Specialist,Octopus Energy
+Mark,McManus,Chairman,Intellezy
+Ben,Hughes,Learning & Development Manager,Aston Martin F1
+Christian,Collins,Head of L&D,Octopus EV
+Vishavpreet,Singh,Mnager,Techgeek
+Jason,H,Manager,FCDO
+Suraj,Khemlani,Consultant,SD Consultancy
+Tracy,Liddon-Watkins,Business Development,Evolution Safety Solutions Ltd
+Jagjot,Chhabra,Associate Director,Aspire Systems
+Mark,Lewis,Operations Director,EVOLUTION SAFETY SOLUTIONS LTD
+Emma,Pincott,Project manager,dreamm ltd
+Charlotte,King,Learning Designer,GAIL's
+Katy,Woollard,Product Specialist,Whittard of Chelsea
+Tom,Flatau,CEO,TWI
+Colin,Geenes,Senior Online and Technology Manager,Sport Structures
+Abhishek,Sudhakar,Online Learning & Data Officer,Sport Structures
+Maria,Araujo,Food Trainer,GAIL's
+Alex,Double,Learning & Development Partner,Flat Iron
+Karen,Connel,IT Trainer,Kingsley Napley
+Russell,Martin,Creative Strategist,N/A
+Darren,Bindert,Head of Marketing,Hubken Group
+Anna,Zukowska,Digital Learning Developer,Blend Training
+Nick,Barr,Trainer and eLearning Wiz,Blend Training
+Aashim,Chopra,AVP - Learning Services,NIIT UK
+Kingman,Cheng,Designer,Blend Training
+Jason,Clarke,Head of Education,Equiti Group
+Chrissie,Holmes,Training Services,CORGI Technical Services Ltd
+Gail,Foot,L&D consultant,Samaritans
+John,Stuart,Director,Blend Training
+Tim,Steward,Training Analyst,Raytheon
+MANISH,JAR,FOUNDER,NEOSAP GLOBAL
+Darren,Combrinck,e-Learning & Content Designer,NFON
+Claudine,Bulgari,Head of Knowledge Management,NFON
+Ilana,Fowler,Learning Solutions Consultant,iLearn Corporate Services
+Marie,Lemonova,Private Investor,Private Investor
+Scott,Dudley-Jones,Learning & Development Specialist,Interpath Ltd
+Andrew,Windram,Digital Learning Lead & Principal Consultant,Whitetree Group Ltd
+Zak,Collen,Learning Team Leader,National Fostering Group
+Matt,Mason,Digital Learning Consultant,EPIC Global Solutions
+Michelle,Gourlay,Learning & Development Manager,Abbott
+Paulina,Wójcik,"Coach, Facilitator",Learning Spaces
+Albe,Pereira,Chief Commercial Officer,Body Talk
+Charlotte,Murtagh,COO,Body Talk
+Per,Larsen,Director,Everlearn Holding
+Rachel,white,Digital Training Developer,EPUT - NHS
+younes,chenguiti,learning specialist,eurostar
+Carrie,Botten,Account Director,Thrive Partners
+Minna,Vaisanen,Head of Revenue,Thrive partners
+Tristan,Oliver,L&D Manager,Brewers
+Rosalind,Abbitt,eLearning Manager,The Royal College of Psychiatrists
+Hosam,El Nagar,L&D Gen AI Consultant,Alt Shift Lab
+Vincent,Lau,Development Director,Kim Software
+Mark,Williams,Founder,GiraffePad Ltd
+James,Voden,KL&D Solutions Adviser,Farrer & Co
+James,Brock,Instructional Design and Content Development - Localisation Lead,Wine & Spirit Education Trust
+Katharine,Greenfield,Head of L&D,Farrer & Co
+Daniel,Spencer,Principal Consultant,EPIC Global Solutions
+Thomas,Flood,Learning Manager,LRN
+janette,devlin,Educator development and training manager,WSET
+David,Bentley,Training Development Manager,Railway Children
