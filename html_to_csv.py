@@ -274,7 +274,7 @@ def main():
         data = extract_data_by_pattern(soup, patterns, column_names)
     
     # Save to CSV
-    output_file = "output.csv"
+    output_file = "html_output.csv"
     with open(output_file, 'w', newline='', encoding='utf-8') as f:
         writer = csv.DictWriter(f, fieldnames=column_names)
         writer.writeheader()

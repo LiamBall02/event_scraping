@@ -1,21 +1,46 @@
 import pandas as pd
 import glob
+import os
 
-# Get all CSV files matching the pattern attendees[1-6].csv and sort in reverse
-csv_files = sorted(glob.glob('attendees[1-6].csv'), reverse=True)
+# Get all CSV files in the directory
+all_csv_files = sorted([f for f in os.listdir('.') if f.endswith('.csv')])
 
-# Initialize an empty list to store DataFrames
-dfs = []
+# Print available CSV files
+print("Available CSV files:")
+for idx, file in enumerate(all_csv_files, 1):
+    print(f"{idx}. {file}")
 
-# Read each CSV file and append to the list (will process from 6 to 1)
-for csv_file in csv_files:
-    df = pd.read_csv(csv_file)
-    dfs.append(df)
+# Get user input for range
+try:
+    start_idx = int(input("\nEnter start file number (1-{}): ".format(len(all_csv_files)))) - 1
+    end_idx = int(input("Enter end file number (1-{}): ".format(len(all_csv_files)))) - 1
+    
+    # Validate input
+    if not (0 <= start_idx < len(all_csv_files) and 0 <= end_idx < len(all_csv_files)):
+        raise ValueError("Invalid file numbers")
+    
+    # Get selected files
+    selected_files = all_csv_files[start_idx:end_idx + 1]
+    
+    # Initialize an empty list to store DataFrames
+    dfs = []
 
-# Combine all DataFrames into one (now in reverse order)
-combined_df = pd.concat(dfs[::-1], ignore_index=True)
+    # Read each CSV file and append to the list
+    for csv_file in selected_files:
+        df = pd.read_csv(csv_file)
+        dfs.append(df)
 
-# Save the combined DataFrame to a new CSV file
-combined_df.to_csv('attendees.csv', index=False)
+    # Combine all DataFrames into one
+    combined_df = pd.concat(dfs, ignore_index=True)
 
-print(f"Combined {len(csv_files)} CSV files into attendees.csv (starting with attendees1)")
+    # Save the combined DataFrame to a new CSV file
+    output_file = 'combined_output.csv'
+    combined_df.to_csv(output_file, index=False)
+
+    print(f"\nSuccessfully combined {len(selected_files)} CSV files into {output_file}")
+    print("Combined files:", ", ".join(selected_files))
+
+except ValueError as e:
+    print("Error: Please enter valid numbers within the range")
+except Exception as e:
+    print(f"An error occurred: {str(e)}")
