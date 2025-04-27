@@ -332,12 +332,12 @@ def prompt_for_output_file() -> str:
         Output file path
     """
     print("\nEnter the name for the output CSV file")
-    print("Press Enter to use default 'output.csv'")
+    print("Press Enter to use default 'json_output.csv'")
     
     user_input = input("> ").strip()
     
     if not user_input:
-        return 'output.csv'
+        return 'json_output.csv'
     
     # Add .csv extension if not provided
     if not user_input.endswith('.csv'):
